@@ -6,8 +6,10 @@ spring:
     profiles: dev
     application: 
      name: springcloud-config-dev
+     test: helloconfigdev
 ---
 spring:
     profiles: test
     application: 
      name: springcloud-config-test
+     test: helloconfigtest
